@@ -9,7 +9,7 @@ services:
     buildCommand: "./bin/render-build.sh"
     startCommand: bundle exec rails s
     envVars:
-      - key: RAILS_MASTER_KEY
+      - key: 5c1a9b5287271aabc4879d7c2e36b3b3
         sync: false
       - key: DATABASE_URL
         fromDatabase:
